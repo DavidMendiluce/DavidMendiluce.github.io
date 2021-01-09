@@ -12,6 +12,26 @@ body {
    font-weight: 300;
  }
 
+ h2 {
+   padding-left: 2vh;
+ }
+
+ p {
+   padding-left: 2vh;
+ }
+
+ ul {
+   padding-left: 6vh;
+ }
+
+ #leftCol i {
+   position: relative;
+   top: 0.5vh;
+   color: #071c36;
+   opacity: 1 !important;
+   padding-right: 2vh;
+ }
+
  #topCol h3 {
    color: white;
    opacity: 0.7;
@@ -20,15 +40,82 @@ body {
    text-align: center;
  }
 
- h3 {
-
+ #leftCol h3 {
+   color: white;
+   padding-left: 2vh;
+   opacity: 0.7;
  }
+
+ #leftCol h5 {
+   color: white;
+   padding-left: 1vh;
+   opacity: 0.9;
+ }
+
+ #leftCol h6 {
+   color: white;
+   padding-left: 1vh;
+   opacity: 0.5;
+ }
+
+
 
  #profile {
-   margin-top: 5vh;
+   margin-top: 1vh;
  }
 
 
+ #bottomCol h4 {
+  margin-left: 2vh !important;
+ }
+
+ #bottomCol p {
+  margin-left: 4vh !important;
+ }
+
+ #bottomCol span {
+   color: grey !important;
+   opacity: 0.5;
+   font-size: 2vh;
+ }
+
+#contact {
+  margin-top: 30vh;
+}
+
+
+#phone {
+  color: rgba(252, 254, 255, 0.7);
+
+}
+
+
+#mail {
+  font-size: 1.4vh;
+  color: rgba(252, 254, 255, 0.7);
+}
+
+#mail i {
+  margin-right: 0.5vh;
+}
+
+#linkdn a {
+  font-size: 1.2vh;
+  color: white;
+  font-weight: bold;
+}
+
+#github a {
+  font-size: 1.2vh;
+  color: white !important;
+  font-weight: bold;
+  opacity: 1 !important;
+}
+
+.skills {
+  color: white;
+  opacity: 0.7;
+}
 
  .headerSeparation {
    position: relative;
@@ -38,6 +125,17 @@ body {
    height: 0.3vh;
    width: 20vh;
  }
+
+ .leftColSeparator {
+   position: relative;
+   left: 1vh;
+   opacity: 1;
+   background-color: white;
+   height: 0.3vh;
+   width: 24vh;
+ }
+
+
 .container-fluid {
   display: table;
   width: 100%;
@@ -48,7 +146,7 @@ body {
   border: 1px solid black;
   position: relative;
   height: 130vh;
-  flex: 0 0 26vh;
+  flex: 0 0 29vh;
   background-image: linear-gradient(rgba(43,74,135,0.5), rgba(35,58,106,0.7));
 }
 
@@ -62,8 +160,8 @@ img {
   border: 1px solid black;
   position: relative;
   height: 26vh;
-  flex : 0 0 90vh;
-  left: 26vh;
+  flex : 0 0 81.6vh;
+  left: 29vh;
   bottom: 130vh;
   background-color: #071c36;
 }
@@ -71,8 +169,9 @@ img {
 #bottomCol {
   border: 1px solid black;
   position: relative;
+  flex : 0 0 81.6vh;
   height: 104.1vh;
   bottom: 130.1vh;
-  left: 26vh;
+  left: 29vh;
 
 }
