@@ -1,0 +1,68 @@
+body {
+  width: 21cm !important;
+  height: 29.7cm !important;
+  font-family: 'Montserrat', sans-serif;
+}
+ h1 {
+   position: relative;
+   top: 2vh;
+   color: white;
+   font-size: 8vh;
+   text-align: center;
+   font-weight: 300;
+ }
+
+ h3 {
+   color: white;
+   opacity: 0.7;
+   position: relative;
+   top: 2vh;
+   text-align: center;
+ }
+
+ .headerSeparation {
+   position: relative;
+   left: 30vh;
+   opacity: 0.3;
+   background-color: white;
+   height: 0.3vh;
+   width: 20vh;
+ }
+.container-fluid {
+  display: table;
+  width: 100%;
+}
+
+#leftCol {
+  padding: 0 0;
+  border: 1px solid black;
+  position: relative;
+  height: 100vh;
+  flex: 0 0 26vh;
+  background-image: linear-gradient(rgba(43,74,135,0.5), rgba(35,58,106,0.7));
+}
+
+img {
+  position: relative;
+  left: 0.3vh;
+  border-radius: 20vh;
+}
+
+#topCol {
+  border: 1px solid black;
+  position: relative;
+  height: 26vh;
+  flex : 0 0 90vh;
+  left: 26vh;
+  bottom: 100vh;
+  background-color: #071c36;
+}
+
+#bottomCol {
+  border: 1px solid black;
+  position: relative;
+  height: 74.1vh;
+  bottom: 100.1vh;
+  left: 26vh;
+
+}
