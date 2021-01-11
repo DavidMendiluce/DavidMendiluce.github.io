@@ -20,8 +20,12 @@ body {
    padding-left: 2vh;
  }
 
+ li p {
+   padding-left: 0vh;
+ }
+
  ul {
-   padding-left: 6vh;
+   padding-left: 4vh;
  }
 
  #leftCol i {
@@ -61,16 +65,22 @@ body {
 
 
  #profile {
-   margin-top: 1vh;
+   margin-top: -1vh;
  }
+
+.download {
+  position: relative;
+  bottom: 129vh;
+  left: 50vh;
+}
 
 
  #bottomCol h4 {
-  margin-left: 2vh !important;
+  margin-left: 0vh !important;
  }
 
  #bottomCol p {
-  margin-left: 4vh !important;
+  margin-left: 0vh !important;
  }
 
  #bottomCol span {
@@ -87,6 +97,11 @@ body {
 #phone {
   color: rgba(252, 254, 255, 0.7);
 
+}
+
+
+#location i {
+  margin-right: 0.7vh;
 }
 
 
