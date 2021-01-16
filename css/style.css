@@ -243,3 +243,28 @@ and (max-width: 1366px)  {
       bottom: 147vh;
     }
 }
+
+@media screen
+  and (device-width: 360px)
+  and (device-height: 740px)
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #leftCol {
+      height: 175vh;
+
+    }
+
+    #topCol {
+      bottom: 0vh;
+      left: 0vh;
+    }
+
+    #bottomCol {
+      height: 149.1vh;
+      bottom: 149.1vh;
+    }
+
+    .download {
+      bottom: 147vh;
+    }
+}
