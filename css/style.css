@@ -166,6 +166,8 @@ body {
 }
 
 img {
+  width: 28.5vh;
+  height: 28.5vh;
   position: absolute;
   align-self: center;
   border-radius: 20vh;
@@ -188,5 +190,29 @@ img {
   height: 104.1vh;
   bottom: 130.1vh;
   left: 29vh;
+
+}
+
+
+@media only screen
+and (min-width: 1030px)
+and (max-width: 1366px)  {
+  #leftCol {
+    height: 160vh;
+
+  }
+
+  #topCol {
+    bottom: 160vh;
+  }
+
+  #bottomCol {
+    height: 134.1vh;
+    bottom: 160.1vh;
+  }
+
+  .download {
+    bottom: 158vh;
+  }
 
 }
