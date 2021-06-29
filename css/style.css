@@ -34,6 +34,7 @@ body {
    color: #071c36;
    opacity: 1 !important;
    padding-right: 2vh;
+
  }
 
  #topCol h3 {
@@ -160,9 +161,9 @@ body {
   padding: 0 0;
   border: 1px solid black;
   position: relative;
-  height: 130vh;
+  height: 160vh;
   flex: 0 0 29vh;
-  background-image: linear-gradient(rgba(43,74,135,0.5), rgba(35,58,106,0.7));
+  background: linear-gradient(rgba(43,74,135,0.5), rgba(35,58,106,0.7));
 }
 
 img {
@@ -179,7 +180,7 @@ img {
   height: 26vh;
   flex : 0 0 81.6vh;
   left: 29vh;
-  bottom: 130vh;
+  bottom: 160vh;
   background-color: #071c36;
 }
 
@@ -187,8 +188,8 @@ img {
   border: 1px solid black;
   position: relative;
   flex : 0 0 81.6vh;
-  height: 104.1vh;
-  bottom: 130.1vh;
+  height: 134.1vh;
+  bottom: 160.1vh;
   left: 29vh;
 
 }
